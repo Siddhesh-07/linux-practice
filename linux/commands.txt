@@ -1,22 +1,22 @@
-ls
-cd
-pwd
-cp
-mv
-rm
-cat
-grep
-find
-chmod
-chown
-ps
-top
-df
-du
-free
-systemctl
-journalctl
-ip
-ss
-curl
-ssh
+ls          - Lists files and directories
+cd          - Changes directory
+pwd         - Shows current directory path
+cp          - Copies files/directories
+mv          - Moves or renames files/directories
+rm          - Removes files/directories
+cat         - Displays file contents
+grep        - Searches for text/patterns
+find        - Searches for files/directories
+chmod       - Changes file permissions
+chown       - Changes file owner/group
+ps          - Shows running processes
+top         - Displays live system/process usage
+df          - Shows disk space usage
+du          - Shows file/directory size
+free        - Shows RAM and swap usage
+systemctl   - Manages system services
+journalctl  - Views system/service logs
+ip          - Shows/configures network settings
+ss          - Shows network connections/ports
+curl        - Sends requests to URLs/APIs
+ssh         - Connects to a remote server securely
