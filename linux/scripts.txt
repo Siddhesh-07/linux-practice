@@ -10,3 +10,21 @@ echo "Memory:"
 free -h
 echo "Disk:"
 df -h
+
+
+
+
+
+#!/bin/bash
+
+THRESHOLD=80
+
+USAGE=$(df / | awk 'NR==2 {print $5}' | tr -d '%')
+
+echo "Disk usage: $USAGE%"
+
+if [ "$USAGE" -ge "$THRESHOLD" ]; then
+    echo "WARNING: Disk usage is above $THRESHOLD%"
+else
+    echo "Disk usage is normal"
+fi
