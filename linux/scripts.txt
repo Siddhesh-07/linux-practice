@@ -52,3 +52,37 @@ DIRECTORY=${1:-/}
 
 echo "Large files in $DIRECTORY:"
 find "$DIRECTORY" -type f -size +100M 2>/dev/null
+
+
+
+
+#!/bin/bash
+
+echo "===== SERVER HEALTH CHECK ====="
+
+echo
+echo "Hostname:"
+hostname
+
+echo
+echo "Uptime:"
+uptime
+
+echo
+echo "Memory:"
+free -h
+
+echo
+echo "Disk:"
+df -h
+
+echo
+echo "CPU Load:"
+uptime | awk -F'load average:' '{print $2}'
+
+echo
+echo "Failed Services:"
+systemctl --failed --no-legend
+
+echo
+echo "Health check completed."
