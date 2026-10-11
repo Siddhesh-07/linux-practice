@@ -20,3 +20,6 @@ ip          - Shows/configures network settings
 ss          - Shows network connections/ports
 curl        - Sends requests to URLs/APIs
 ssh         - Connects to a remote server securely
+whoami      - Shows the current logged-in username
+who         - Shows users currently logged in
+id          - Shows user ID and group information
