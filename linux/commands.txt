@@ -23,3 +23,10 @@ ssh         - Connects to a remote server securely
 whoami      - Shows the current logged-in username
 who         - Shows users currently logged in
 id          - Shows user ID and group information
+ping        - Tests network connectivity
+traceroute  - Shows the network route to a destination
+nslookup    - Queries DNS records
+dig         - Performs DNS lookups
+wget        - Downloads files from URLs
+nc          - Tests network connections and ports
+iptables    - Manages firewall rules on systems using iptables
