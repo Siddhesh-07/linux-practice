@@ -30,3 +30,5 @@ dig         - Performs DNS lookups
 wget        - Downloads files from URLs
 nc          - Tests network connections and ports
 iptables    - Manages firewall rules on systems using iptables
+systemd-analyze - Analyzes system startup performance
+dmesg       - Displays kernel messages
