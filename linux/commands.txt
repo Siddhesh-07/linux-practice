@@ -32,3 +32,8 @@ nc          - Tests network connections and ports
 iptables    - Manages firewall rules on systems using iptables
 systemd-analyze - Analyzes system startup performance
 dmesg       - Displays kernel messages
+lsblk       - Lists block devices and disks
+mount       - Mounts a filesystem
+umount      - Unmounts a filesystem
+fdisk       - Manages disk partition tables
+lsof        - Lists open files and their associated processes
