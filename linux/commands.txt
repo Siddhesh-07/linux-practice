@@ -38,4 +38,6 @@ umount      - Unmounts a filesystem
 fdisk       - Manages disk partition tables
 lsof        - Lists open files and their associated processes
 env         - Displays environment variables
-export      - Sets environment variables for the current shel
+export      - Sets environment variables for the current shell
+nice        - Starts a process with a specified priority
+renice      - Changes the priority of a running process
