@@ -1,4 +1,5 @@
 #!/bin/bash
+# System information report
 
 echo "===== SYSTEM INFORMATION ====="
 echo "Hostname: $(hostname)"
@@ -14,6 +15,7 @@ df -h
 ---------------------------------------------------
 
 #!/bin/bash
+# Disk usage threshold alert
 
 THRESHOLD=80
 
@@ -30,6 +32,7 @@ fi
 ---------------------------------------------------
 
 #!/bin/bash
+# Backup /var/log to /tmp/log_backup
 
 SOURCE="/var/log"
 DEST="/tmp/log_backup"
@@ -43,6 +46,7 @@ echo "Backup completed: $DEST"
 ---------------------------------------------------
 
 #!/bin/bash
+# Find files larger than 100MB in a directory
 
 DIRECTORY=${1:-/}
 
@@ -52,6 +56,7 @@ find "$DIRECTORY" -type f -size +100M 2>/dev/null
 ---------------------------------------------------
 
 #!/bin/bash
+# Server health check
 
 echo "===== SERVER HEALTH CHECK ====="
 
@@ -82,10 +87,10 @@ systemctl --failed --no-legend
 echo
 echo "Health check completed."
 
-
 ---------------------------------------------------
 
 #!/bin/bash
+# Check if a user exists
 
 USER=$1
 
