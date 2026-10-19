@@ -41,3 +41,5 @@ env         - Displays environment variables
 export      - Sets environment variables for the current shell
 nice        - Starts a process with a specified priority
 renice      - Changes the priority of a running process
+systemd-analyze - Analyzes system startup performance
+dmesg       - Displays kernel messages
