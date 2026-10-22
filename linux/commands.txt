@@ -46,3 +46,7 @@ dmesg       - Displays kernel messages
 passwd      - Changes a user's password
 useradd     - Creates a user account
 usermod     - Modifies a user account
+userdel     - Deletes a user account
+groupadd    - Creates a group
+groupmod    - Modifies a group
+groupdel    - Deletes a group
