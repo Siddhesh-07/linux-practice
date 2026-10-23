@@ -50,3 +50,7 @@ userdel     - Deletes a user account
 groupadd    - Creates a group
 groupmod    - Modifies a group
 groupdel    - Deletes a group
+ncdu        - Interactively analyzes disk usage
+blkid       - Displays block device identifiers
+tune2fs     - Adjusts ext2/ext3/ext4 filesystem parameters
+fsck        - Checks and repairs filesystems
