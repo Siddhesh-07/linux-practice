@@ -30,7 +30,6 @@ dig         - Performs DNS lookups
 wget        - Downloads files from URLs
 nc          - Tests network connections and ports
 iptables    - Manages firewall rules on systems using iptables
-systemd-analyze - Analyzes system startup performance
 dmesg       - Displays kernel messages
 lsblk       - Lists block devices and disks
 mount       - Mounts a filesystem
@@ -41,7 +40,6 @@ env         - Displays environment variables
 export      - Sets environment variables for the current shell
 nice        - Starts a process with a specified priority
 renice      - Changes the priority of a running process
-systemd-analyze - Analyzes system startup performance
 dmesg       - Displays kernel messages
 passwd      - Changes a user's password
 useradd     - Creates a user account
