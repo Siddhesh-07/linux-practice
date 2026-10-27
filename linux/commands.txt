@@ -52,3 +52,6 @@ ncdu        - Interactively analyzes disk usage
 blkid       - Displays block device identifiers
 tune2fs     - Adjusts ext2/ext3/ext4 filesystem parameters
 fsck        - Checks and repairs filesystems
+vmstat      - Reports memory, CPU, and system activity
+iostat      - Reports CPU and disk I/O statistics
+mpstat      - Reports CPU utilization statistics
