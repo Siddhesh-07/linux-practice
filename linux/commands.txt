@@ -55,3 +55,6 @@ fsck        - Checks and repairs filesystems
 vmstat      - Reports memory, CPU, and system activity
 iostat      - Reports CPU and disk I/O statistics
 mpstat      - Reports CPU utilization statistics
+hostnamectl - Displays or manages hostname settings
+timedatectl - Displays or manages system time settings
+resolvectl  - Inspects or manages DNS resolution
