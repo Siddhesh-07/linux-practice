@@ -58,3 +58,7 @@ mpstat      - Reports CPU utilization statistics
 hostnamectl - Displays or manages hostname settings
 timedatectl - Displays or manages system time settings
 resolvectl  - Inspects or manages DNS resolution
+ncdu        - Interactively analyzes disk usage
+blkid       - Displays block device identifiers
+tune2fs     - Adjusts ext2/ext3/ext4 filesystem parameters
+fsck        - Checks and repairs filesystems
