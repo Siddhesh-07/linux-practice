@@ -62,3 +62,7 @@ ncdu        - Interactively analyzes disk usage
 blkid       - Displays block device identifiers
 tune2fs     - Adjusts ext2/ext3/ext4 filesystem parameters
 fsck        - Checks and repairs filesystems
+chgrp       - Changes a file's group ownership
+getfacl     - Displays file access control lists
+setfacl     - Modifies file access control lists
+getent      - Retrieves entries from system databases
