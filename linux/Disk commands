@@ -1,0 +1,6 @@
+# Disk Management & Formatting
+lsblk           - Lists disks and partitions
+fdisk -l        - Displays disk partition information
+parted -l       - Lists disk partition tables
+blkid           - Displays filesystem UUIDs and types
+fdisk           - Manages disk partitions
