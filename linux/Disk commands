@@ -4,3 +4,9 @@ fdisk -l        - Displays disk partition information
 parted -l       - Lists disk partition tables
 blkid           - Displays filesystem UUIDs and types
 fdisk           - Manages disk partitions
+parted          - Creates and manages disk partitions
+partprobe       - Updates kernel partition information
+partx           - Updates partition table information
+mkfs            - Creates a filesystem
+mkfs.ext4       - Formats a partition with ext4 filesystem
+mkfs.xfs        - Formats a partition with XFS filesystem
