@@ -10,3 +10,9 @@ partx           - Updates partition table information
 mkfs            - Creates a filesystem
 mkfs.ext4       - Formats a partition with ext4 filesystem
 mkfs.xfs        - Formats a partition with XFS filesystem
+mkswap          - Creates a swap area
+swapon          - Enables swap space
+swapoff         - Disables swap space
+wipefs          - Removes filesystem signatures
+e2label         - Sets an ext filesystem label
+xfs_admin       - Manages XFS filesystem attributes
