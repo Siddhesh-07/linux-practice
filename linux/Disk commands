@@ -16,3 +16,11 @@ swapoff         - Disables swap space
 wipefs          - Removes filesystem signatures
 e2label         - Sets an ext filesystem label
 xfs_admin       - Manages XFS filesystem attributes
+
+# Mounting & Unmounting
+mount           - Mounts a filesystem
+umount          - Unmounts a filesystem
+findmnt         - Displays mounted filesystems
+mount -a        - Mounts filesystems listed in /etc/fstab
+blkid           - Displays filesystem UUIDs
+df -hT          - Shows disk usage and filesystem types
