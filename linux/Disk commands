@@ -24,3 +24,8 @@ findmnt         - Displays mounted filesystems
 mount -a        - Mounts filesystems listed in /etc/fstab
 blkid           - Displays filesystem UUIDs
 df -hT          - Shows disk usage and filesystem types
+
+# Disk Expansion
+growpart        - Expands a partition to fill available disk space
+resize2fs       - Expands an ext2/ext3/ext4 filesystem
+xfs_growfs      - Expands a mounted XFS filesystem
