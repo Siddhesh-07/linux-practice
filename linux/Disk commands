@@ -29,3 +29,8 @@ df -hT          - Shows disk usage and filesystem types
 growpart        - Expands a partition to fill available disk space
 resize2fs       - Expands an ext2/ext3/ext4 filesystem
 xfs_growfs      - Expands a mounted XFS filesystem
+partx           - Updates partition information
+pvresize       - Resizes an LVM physical volume
+lvextend       - Extends a logical volume
+lvreduce       - Reduces a logical volume
+lvresize       - Resizes a logical volume
