@@ -34,3 +34,9 @@ pvresize       - Resizes an LVM physical volume
 lvextend       - Extends a logical volume
 lvreduce       - Reduces a logical volume
 lvresize       - Resizes a logical volume
+pvs            - Displays physical volumes
+vgs            - Displays volume groups
+lvs            - Displays logical volumes
+vgextend       - Adds a physical volume to a volume group
+lvcreate       - Creates a logical volume
+lvremove       - Removes a logical volume
