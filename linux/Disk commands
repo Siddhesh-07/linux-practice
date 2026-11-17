@@ -40,3 +40,8 @@ lvs            - Displays logical volumes
 vgextend       - Adds a physical volume to a volume group
 lvcreate       - Creates a logical volume
 lvremove       - Removes a logical volume
+
+# Filesystem & Disk Health
+fsck            - Checks and repairs filesystems
+e2fsck          - Checks and repairs ext filesystems
+xfs_repair     - Repairs XFS filesystems
