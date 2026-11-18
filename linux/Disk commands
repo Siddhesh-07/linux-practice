@@ -45,3 +45,4 @@ lvremove       - Removes a logical volume
 fsck            - Checks and repairs filesystems
 e2fsck          - Checks and repairs ext filesystems
 xfs_repair     - Repairs XFS filesystems
+tune2fs         - Adjusts ext filesystem parameters
