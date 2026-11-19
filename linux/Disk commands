@@ -46,3 +46,6 @@ fsck            - Checks and repairs filesystems
 e2fsck          - Checks and repairs ext filesystems
 xfs_repair     - Repairs XFS filesystems
 tune2fs         - Adjusts ext filesystem parameters
+dumpe2fs        - Displays ext filesystem information
+badblocks       - Checks for bad blocks on a device
+smartctl        - Monitors disk health using SMART
