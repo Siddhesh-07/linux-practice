@@ -99,3 +99,15 @@ if id "$USER" &>/dev/null; then
 else
     echo "User $USER does not exist"
 fi
+
+---------------------------------------------------
+
+#!/bin/bash
+# Monitor top CPU-consuming processes
+
+echo "===== TOP 10 CPU CONSUMING PROCESSES ====="
+
+ps -eo pid,ppid,comm,%cpu,%mem --sort=-%cpu | head -11
+
+echo
+echo "Process monitoring completed."
