@@ -126,3 +126,18 @@ systemctl list-units \
 
 echo
 echo "Service check completed."
+
+---------------------------------------------------
+
+#!/bin/bash
+# Check connectivity to a remote server
+
+HOST=${1:-google.com}
+
+echo "Checking connectivity to $HOST..."
+
+if ping -c 4 "$HOST" &>/dev/null; then
+    echo "SUCCESS: $HOST is reachable"
+else
+    echo "ERROR: Unable to reach $HOST"
+fi
