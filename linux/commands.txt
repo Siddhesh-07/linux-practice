@@ -69,3 +69,4 @@ getfacl     - Displays file access control lists
 setfacl     - Modifies file access control lists
 getent      - Retrieves entries from system databases
 lscpu       - Displays CPU architecture details
+stat        - Displays file metadata
