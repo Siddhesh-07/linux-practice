@@ -29,6 +29,7 @@ nslookup    - Queries DNS records
 dig         - Performs DNS lookups
 wget        - Downloads files from URLs
 nc          - Tests network connections and ports
+route       - Displays or modifies routing tables
 iptables    - Manages firewall rules on systems using iptables
 dmesg       - Displays kernel messages
 lsblk       - Lists block devices and disks
@@ -68,5 +69,4 @@ chgrp       - Changes a file's group ownership
 getfacl     - Displays file access control lists
 setfacl     - Modifies file access control lists
 getent      - Retrieves entries from system databases
-lscpu       - Displays CPU architecture details
 stat        - Displays file metadata
